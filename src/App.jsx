@@ -40,7 +40,7 @@ function App() {
         { path: 'cart', element: <Cart /> },
         { path: 'product/:id', element: <ProductDetails /> },
         { path: 'checkout', element: <Checkout /> },
-        { path: 'allorders', element: <Orders /> },
+        { path: '/allorders', element: <Orders /> },
         { path: 'categories', element: <Categories /> },
         { path: 'brands', element: <Brands /> },
         { path: 'products', element: <Products /> },
