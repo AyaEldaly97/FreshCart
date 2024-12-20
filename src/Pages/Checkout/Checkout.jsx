@@ -54,11 +54,12 @@ export default function Checkout() {
         data: values,
       }
       let { data } = await axios.request(options)
-      console.log(data);
       
       if (data.status == 'success') {
         let toastId = toast.loading('Redirecting to payment gateway')
-console.log(data)
+        setTimeout(() => {
+          location.href = data.session.url
+        }, 2000)
       }
     } catch (error) {
       console.log(error)
