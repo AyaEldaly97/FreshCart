@@ -25,6 +25,7 @@ import VerifyEmail from './Pages/Verification/VerifyEmail'
 import ForgotPassword from './Pages/ForgotPassword/ForgotPassword'
 import ResetPassword from './Pages/ResetPassword/ResetPassword'
 
+
 function App() {
   const router = createBrowserRouter([
     {
