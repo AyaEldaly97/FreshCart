@@ -59,7 +59,7 @@ function App() {
         { path: '/login', element: <Login /> },
         {path:'/forgotpassword' , element: <ForgotPassword/>},
         {path:'/verifyemail' , element:<VerifyEmail/>},
-        {path:'resetpassword', element: <ResetPassword/>}
+        {path:'/resetpassword', element: <ResetPassword/>}
       ],
     },
   ])
