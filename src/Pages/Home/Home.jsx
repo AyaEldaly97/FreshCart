@@ -43,7 +43,7 @@ export default function Home() {
       <section>
       <h2 className="text-gray-700 font-semibold mb-5 text-lg ">Shop Popular Products</h2>
    
-      <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 sm:gap-4'>
+      <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4'>
         {data.data.data.map((product)=> <Card key={product.id} productInfo={product}/>)}
       </div>
       </section>
