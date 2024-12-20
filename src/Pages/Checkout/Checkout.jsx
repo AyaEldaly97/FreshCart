@@ -58,9 +58,7 @@ export default function Checkout() {
       
       if (data.status == 'success') {
         let toastId = toast.loading('Redirecting to payment gateway')
-        setTimeout(() => {
-          location.href = data.session.url
-        }, 2000)
+console.log(data)
       }
     } catch (error) {
       console.log(error)
